@@ -1,0 +1,299 @@
+html, body, * {
+    font-family: monospace;
+    margin: 0;
+    padding: 0 0 0 0;
+    text-align: center;
+ 
+}
+
+/* TOP CONTAINER START */
+
+.top-container {
+    background-color: #EAF6F6;
+    height: 710px;
+    margin: 0 auto;
+    position: relative;
+    padding: 50px 0 0 0;
+    width: 100%;
+    
+}
+
+.cloud {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    right: 100px ;
+}
+
+.cloud-2 {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 500px;
+    left: 380px ;
+}
+
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    left: 450px;
+}
+
+.top-container h1 {
+    color: #66BFBF;
+    font-size: 3.5em;
+    margin-top: 200px;
+}
+
+.top-container h2 {
+    color: #66BFBF;
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+.developer {
+    color: #66BFBF;
+    text-decoration: underline;
+}
+
+/* TOP CONTAINER END */
+
+
+
+
+/* MID CONTAINER START */
+
+.middle-container {
+    position: relative;
+    width: 50%;
+    margin: 300px auto;
+    margin-bottom: 350px;
+
+}
+
+.middle-container h2 {
+    color: #66BFBF;
+    margin-top: 50px;
+    font-size: 2.5em;
+    padding-top: 60px;
+}
+
+.middle-container p {
+    margin-top: 20px;
+
+}
+.profile {
+    position: relative;
+}
+
+.profile-img {
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    height: 250px;
+    position: relative;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    transition: 1s;
+
+}
+
+.profile-img:hover {
+    border-color: #66BFBF;
+}
+
+.middle-container h2 {
+    font-size: 3em;
+
+}
+
+.middle-container p {
+    font-size: 1.5em;
+
+}
+
+/* MID CONTAINER END */
+
+/* THIS SPECIAL HR START */
+
+#special-hr {
+    border-top: 5px dotted;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    color: #66BFBF;
+    margin: 0 auto;
+    width: 50%;
+    width: 100px;
+   
+}
+
+/* THIS SPECIAL HR end */
+
+
+
+/* SKILLS CONTAINER START */
+
+.skills {
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.skill-row {
+    position: relative;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+.skill-img-left {
+    float: left;
+    margin-right: 30px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    
+}
+
+.skill-left {
+    text-align: left;
+}
+
+.skill-right {
+    text-align: right;
+}
+
+.skill-img-right {
+    float: right;
+    height: 250px;
+    margin-left: 30px;
+    width: 250px;
+    position: relative;
+    
+    
+}
+
+.skills h2 {
+    color: #66BFBF;
+    margin-top: 10px;
+    font-size: 3em;
+    margin-bottom: 20px;
+
+} 
+
+.skills h3 {
+    color: #66BFBF;
+    margin-top: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.skills p {
+       font-weight: bold;  
+}
+
+/* SKILLS CONTAINER END */
+
+
+#special-hr-2 {
+    border-top: 5px dotted;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    color: #66BFBF;
+    margin: 0 auto;
+    width: 50%;
+    width: 100px;
+    margin-top: 300px;
+   
+}
+
+/* THIS SPECIAL HR end */
+
+
+
+
+/* CONTACT CONTAINER CONTAINER END */
+.contact-me { 
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 300px;
+    position: relative;
+    border: 100px;
+}
+
+.contact-me h2 {
+    color: #66BFBF;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 3.5em;
+}
+
+.contact-me h3 {
+    color: #66BFBF;
+    margin-top: 10px;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+
+}
+
+.contact-me p  {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 2em; 
+}
+
+.btn {
+    margin-top: 1000px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #66BFBF;
+    transition: 1s;
+}
+
+
+.btn:hover {
+    background: #3cb0fd;
+  }
+
+/* CONTACT CONTAINER CONTAINER END */
+
+
+
+
+/* BOTTOM CONTAINER START */
+.bottom-container {
+    position: relative;
+    margin-top: 200px;
+    border: 100px;
+    background-color: #66BFBF;
+    padding: 100px 100px 50px 100px;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: #EAF6F6;
+    font-size: 2em;
+    margin: 0 20px 0 20px;
+}
+
+.bottom-container p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+
+/* BOTTOM CONTAINER END */
+
